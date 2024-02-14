@@ -3,7 +3,9 @@ package com.driver;
 public class Main {
     public static void main(String[] args) {
         B obj = new B();
-        System.out.println(obj.meth());
+        obj.meth();
+        B b1 = new B();
+        b1.meth();
     }
 
     public static class A {
